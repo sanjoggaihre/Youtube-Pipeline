@@ -1,0 +1,3 @@
+# Youtube Pipeline
+
+In this project, The user can enter the url of the different youtube videos to be downloaded. The high quality videos is downloaded using Pytube library. Then the moviepy library is used to extract the audio from the downloaded videos. To run moviepy library we need to install ffmpeg multimedia framework and add it to enviroment variables. Then we use opencv to save the frames of the images at certain interval.
